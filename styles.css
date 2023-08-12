@@ -1,0 +1,280 @@
+body{
+    margin:0;
+}
+.padre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #daac00;
+}
+
+.padre .logo img{
+    width: 230px;
+    margin-left: 160px;
+}
+
+.padre .menu ul{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    list-style: none;
+    font-size: 27px;
+}
+
+.padre .menu ul a{
+    text-decoration: none;
+}
+
+.padre .buscador{
+    display: flex;
+}
+
+i{
+    background-color:blue;
+    padding: 10px;
+    width: 16px;
+    margin-right: 120px;
+    
+}
+
+.centro{
+    
+    align-items: center;
+    background-color: #fcc302;
+    gap: 50px;
+    display: flex;
+    justify-content:center ;
+}
+
+
+
+.texto{
+    width: 580px;
+    
+}
+
+.texto .text_principal {
+
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.texto .Parrafo_principal{
+
+    color: white;
+    font-size: 25px;
+    font-family: "poppins", sans-serif;
+    text-align: justify;
+}
+.buscadores{
+    display: flex;
+    gap:30px ;
+    padding-block: 30px;
+}
+.editado{
+    background-color:aqua    
+}
+button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+
+.centro .imagen img{    
+    transform:scaleX(-1);
+    width: 300px;
+    height: 400px;
+    filter: drop-shadow(16.901px 31.786px 23px rgba(74,74,74,0.29));
+    align-items: center;
+    margin-left: 60px;
+}
+
+.centr{
+    margin-top: 100px;
+    background-color:white;
+    display: flex;
+    justify-content:center ;
+}
+
+.tex2{
+    width: 600px;
+}
+.tex2 .text2{
+    font-size: 35px;
+    text-align: justify;
+    font-family: "poppins" sans-serif;
+}
+
+.tex2 .descripcion {
+    text-align:justify;
+    font-size:35px;
+
+}
+
+.buscador2 button{
+    background-color: #fcc302;
+    color: white;
+}
+
+
+.centr .perro2 img{
+    align-items: center;
+    margin-left: 50px;
+    width: 400px;
+}
+
+.medicos{
+    background-color: #fcc302;
+    justify-content: center;
+
+}
+
+.fase3{
+    width: 1000px;
+    margin-left: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fase3 .encavesado{
+    font-family: "poppins" sans-serif;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.fase3 .textodeencavesado {
+    font-family: "poppins" sans-serif;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    
+}
+.medicos .tercero{
+    display: flex;
+    gap:100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tercero .beterinaria1 .fondo1{
+    justify-content: center;
+    text-align: center;
+}
+
+.tercero .beterinaria1 .texto1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.tercero .beterinaria1 .parrafo1{
+    justify-items: center;
+    text-align: center;
+    width: 300px;
+    font-size: 24px;
+    margin-left: 20px;
+    
+}
+
+.tercero .beterinaria2 .fondo2{
+    justify-content:center;
+    text-align: center;
+}
+
+.tercero .beterinaria2 .texto2{
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+.tercero .beterinaria2 .parrafo2{
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.tercero .beterinaria3 .fondo3{
+    justify-content: center;
+    text-align: center;
+}
+
+.tercero .beterinaria3 .texto3{
+    text-align:center;
+    font-size: 20px;
+}
+
+.tercero .beterinaria3 .parrafo3{
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+
+.parte4{
+    display: flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.parte4 .imagen4 img{
+    margin-top: 120px;
+}
+
+.texto4{
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    gap:1px;
+}
+.texto4 .titulo{
+    font-size: 34px;
+    width:660px;
+    text-align:right;
+    justify-content: center;
+    font-family: "poppins", sans-serif;
+}
+
+.texto4 .parrafo4{
+    font-size: 32px;
+    text-align: right;
+    width: 660px;
+    font-family: "poppins", sans-serif;
+}
+
+.texto4 .buscador4{
+    width: 660px;
+    text-align: right;
+    font-family: "poppins", sans-serif;
+}
+
+.buscador4 button{
+    background-color: #fcc302;
+}
+
+.parte5{
+    background-color: #fcc302;
+    justify-content: center;
+    text-align: center;
+}
+
+.parte5 .titulo5{
+    padding:10px ;
+    margin: 50px;
+    font-size: 30px;
+}
